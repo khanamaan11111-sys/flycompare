@@ -31,3 +31,14 @@ Status: **Not yet certified for public launch.** This is a reproducible manual t
 - [ ] Verify deployed robots.txt, sitemap.xml, canonical URL, manifest and privacy page.
 
 Record browser, OS, date, expected result, actual result, and any defect before marking a case complete. No live fares, ticketing, account system or revenue are claimed.
+
+## Stage 114: export/share acceptance cases
+- [ ] Generate a comparison, change one quote and confirm copy/TXT/CSV/transfer are disabled until recalculation.
+- [ ] Reset a comparison and confirm no stale CSV or TXT is available.
+- [ ] Generate a budget, change passenger count and confirm stale budget downloads are disabled until recalculation.
+- [ ] Share a valid one-way and round-trip URL; open in a new tab and verify restored inputs.
+- [ ] Cancel the native share sheet and installation prompt; ensure the planner remains usable.
+- [ ] Test denied clipboard permissions and unavailable native sharing; confirm visible fallback instructions.
+- [ ] Open CSV in spreadsheet software and verify names/notes beginning with formula characters are treated as text.
+
+These are pending manual browser checks, not passed tests.
