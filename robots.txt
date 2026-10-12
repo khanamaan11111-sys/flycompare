@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://khanamaan11111-sys.github.io/flycompare/sitemap.xml
