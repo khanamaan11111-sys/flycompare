@@ -1,7 +1,7 @@
 {
   "name": "FlyCompare",
   "short_name": "FlyCompare",
-  "description": "Flight search interface by FlyCompare",
+  "description": "Free independent travel planner for self-entered fare comparisons, itineraries and trip budgets. No live fares or bookings.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
