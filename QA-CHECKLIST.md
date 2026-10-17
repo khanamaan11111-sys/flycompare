@@ -42,3 +42,13 @@ Record browser, OS, date, expected result, actual result, and any defect before 
 - [ ] Open CSV in spreadsheet software and verify names/notes beginning with formula characters are treated as text.
 
 These are pending manual browser checks, not passed tests.
+
+## Stage 115: budget calculation invalidation and observed desktop checks
+- [x] User screenshot: imported JSON draft recalculated to ₹28,600 total, ₹7,150 per traveller, ₹2,600 contingency and ₹8,600 over limit (17 October 2026).
+- [x] User screenshot: imported current draft and saved browser draft remained distinct; comparison showed accommodation ₹8,000 vs ₹6,000 and ₹2,200 group-total difference.
+- [x] User screenshot: budget comparison TXT and CSV opened, and one-page PDF print preview displayed. PDF file was visible in Downloads.
+- [ ] After changing each budget amount, spending limit, contingency or passenger count, verify old copy/download controls disable until Calculate is clicked.
+- [ ] Verify departure/return date changes invalidate night-based estimates.
+- [ ] Verify offline operation, mobile width, keyboard accessibility, and deployment from a clean browser session before public launch certification.
+
+Stage 115 is a release candidate, not a claim of completed full browser QA or live flight booking.
