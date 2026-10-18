@@ -1,4 +1,4 @@
-const CACHE='flycompare-stage115-offline-fix-v2';
+const CACHE='flycompare-stage115-offline-diagnostics-v3';
 const PREFIX='flycompare-';
 const ASSETS=['./','./index.html','./manifest.webmanifest','./icon.svg','./privacy.html'];
 const appURL=new URL('./index.html',self.registration.scope);
