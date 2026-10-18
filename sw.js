@@ -1,6 +1,6 @@
-const CACHE='flycompare-stage115-offline-diagnostics-v3';
+const CACHE='flycompare-monetization-stage1-v1';
 const PREFIX='flycompare-';
-const ASSETS=['./','./index.html','./manifest.webmanifest','./icon.svg','./privacy.html'];
+const ASSETS=['./','./index.html','./manifest.webmanifest','./icon.svg','./privacy.html','./planning-service.html'];
 const appURL=new URL('./index.html',self.registration.scope);
 self.addEventListener('install',event=>event.waitUntil((async()=>{
  const cache=await caches.open(CACHE);
